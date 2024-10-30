@@ -1,0 +1,67 @@
+#dcc-notice-notice.dcc-notice-notice {
+	padding: 15px 15px 15px 0;
+	background-color: #fff;
+	margin: 5px 0 15px;
+	border-left: 4px solid transparent;
+}
+
+#dcc-notice-notice .dcc-notice-thumbnail {
+  width: 80px;
+  float: left;
+  line-height: 80px;
+  text-align: center;
+  border-right: 4px solid transparent;
+}
+
+
+#dcc-notice-notice .dcc-notice-thumbnail img {
+  width: 60px;
+  vertical-align: middle;
+	border-radius: 9px;
+}
+
+#dcc-notice-notice .dcc-notice-text {
+  overflow: hidden;
+}
+
+#dcc-notice-notice .dcc-notice-text h3 {
+  font-size: 26px;
+  margin: 0 0 5px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+#dcc-notice-notice .dcc-notice-text p {
+  font-size: 15px;
+  margin: 0 0 5px;
+  line-height: 1.6;
+}
+
+#dcc-notice-notice .dcc-notice-ul {
+  margin: 20px 0 0;
+  padding: 0;
+}
+
+#dcc-notice-notice .dcc-notice-ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#dcc-notice-notice .dcc-notice-ul li a {
+  display: inline-block;
+  color: #7d64fe;
+  font-size: 18px;
+  text-decoration: none;
+  padding-left: 25px;
+  position: relative;
+}
+
+#dcc-notice-notice .notice-dismiss {
+  padding: 0 0 0 26px;
+}
+
+#dcc-notice-notice .dcc-notice-ul li a span {
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
